@@ -9,9 +9,4 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0000FF</color>
     <color name="pink">#FFC0CB</color>
-    <color name="bluegray">#536872</color>
-    <color name="bluegraydark">#36454f</color>
-    <color name="bluegraylight">#6e7f80</color>
-    <color name="red1">#CD5C5C</color>
-    <color name="red2">#F08080</color>
 </resources>

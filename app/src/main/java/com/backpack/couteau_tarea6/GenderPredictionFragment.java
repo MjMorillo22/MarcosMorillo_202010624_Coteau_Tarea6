@@ -96,12 +96,12 @@ public class GenderPredictionFragment extends Fragment {
                 resultText.setText("Género estimado: " + gender);
 
                 // Mostrar imagen y color basado en el género
-                if ("Masculino".equals(gender)) {
+                if ("male".equals(gender)) {
                     genderImage.setImageResource(R.drawable.azul);  // Imagen azul
                     resultText.setTextColor(Color.BLUE);
-                } else if ("Femenino".equals(gender)) {
+                } else if ("female".equals(gender)) {
                     genderImage.setImageResource(R.drawable.rosa);  // Imagen rosa
-                    resultText.setTextColor(Color.MAGENTA);
+                    resultText.setTextColor(Color.BLUE);
                 } else {
                     resultText.setText("No se pudo determinar el género.");
                     genderImage.setImageResource(0); // Limpiar la imagen

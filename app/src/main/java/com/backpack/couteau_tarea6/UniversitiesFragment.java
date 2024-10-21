@@ -57,7 +57,7 @@ public class UniversitiesFragment extends Fragment {
                 searchUniversities(country);
             } else {
                 // Inform the user to enter a country
-                showMessage("Introducir nombre de Pais en ingles");
+                showMessage("Please enter a country name.");
             }
         });
 
