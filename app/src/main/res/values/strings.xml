@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Couteau Marcos</string>
+    <string name="toolbox_description">Esta aplicación te permite:\n\n• Predecir el género de una persona según su nombre.\n• Determinar la edad y clasificarla como joven, adulto o anciano.\n• Buscar universidades en un país ingresando su nombre en inglés.\n• Ver el clima actual en la República Dominicana.\n• Consultar las últimas tres noticias de un sitio de WordPress.\n\n¡Explora todas las funcionalidades que tenemos para ti!</string>
+</resources>

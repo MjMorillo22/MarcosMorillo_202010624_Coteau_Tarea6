@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/about_photo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mm"
+        android:contentDescription="Tu foto"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/about_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcos Morillo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/Code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matricula: 2020-10624"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/about_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: morillomarcos89@gmail.com"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/about_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: +1 849 206 8789"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
